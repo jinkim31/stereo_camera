@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/devel/setup.sh

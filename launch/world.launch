@@ -1,0 +1,9 @@
+<launch>
+   <env name="GAZEBO_RESOURCE_PATH" value="$(find epipolar)"/>
+   <include file="$(find gazebo_ros)/launch/empty_world.launch">
+      <arg name="world_name" value="$(find epipolar)/world/world.world"/>
+      <arg name="extra_gazebo_args" default="--verbose"/>
+   </include>
+   <param name="robot_description" command="$(find xacro)/xacro $(find epipolar)/model/epipolar.urdf.xacro"/>
+   <node name="spawn_epipolar" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model epipolar5" output="screen"/>
+</launch>

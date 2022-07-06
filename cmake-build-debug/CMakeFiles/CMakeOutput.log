@@ -1,0 +1,316 @@
+The system is: Darwin - 21.3.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/jinkim/miniforge3/envs/ros/bin/arm64-apple-darwin20.0.0-clang 
+Build flags: -ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-isystem;/Users/jinkim/miniforge3/envs/ros/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/jinkim/miniforge3/envs/ros/bin/arm64-apple-darwin20.0.0-clang++ 
+Build flags: -ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/Users/jinkim/miniforge3/envs/ros/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_667b3 && [1/2] Building C object CMakeFiles/cmTC_667b3.dir/CMakeCCompilerABI.c.o
+clang version 13.0.1
+Target: arm64-apple-darwin20.0.0
+Thread model: posix
+InstalledDir: /Users/jinkim/miniforge3/envs/ros/bin
+clang-13: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/Users/jinkim/miniforge3/envs/ros/bin/clang-13" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp -resource-dir /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_667b3.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_667b3.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/jinkim/miniforge3/envs/ros/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/opt/homebrew/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdebug-compilation-dir=/Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_667b3.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /Users/jinkim/miniforge3/envs/ros/include
+ /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking C executable cmTC_667b3
+clang version 13.0.1
+Target: arm64-apple-darwin20.0.0
+Thread model: posix
+InstalledDir: /Users/jinkim/miniforge3/envs/ros/bin
+ "/Users/jinkim/miniforge3/envs/ros/bin/arm64-apple-darwin20.0.0-ld" -demangle -lto_library /Users/jinkim/miniforge3/envs/ros/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_667b3 -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_667b3.dir/CMakeCCompilerABI.c.o -lSystem /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609
+BUILD 21:57:29 May 21 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/opt/homebrew/opt/openssl@1.1/lib
+	/opt/homebrew/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/homebrew/include]
+    add: [/Users/jinkim/miniforge3/envs/ros/include]
+    add: [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  end of search list found
+  collapse include dir [/opt/homebrew/include] ==> [/opt/homebrew/include]
+  collapse include dir [/Users/jinkim/miniforge3/envs/ros/include] ==> [/Users/jinkim/miniforge3/envs/ros/include]
+  collapse include dir [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include] ==> [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  implicit include dirs: [/opt/homebrew/include;/Users/jinkim/miniforge3/envs/ros/include;/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_667b3 && [1/2] Building C object CMakeFiles/cmTC_667b3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin20.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/jinkim/miniforge3/envs/ros/bin]
+  ignore line: [clang-13: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/jinkim/miniforge3/envs/ros/bin/clang-13" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp -resource-dir /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_667b3.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_667b3.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/jinkim/miniforge3/envs/ros/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/opt/homebrew/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdebug-compilation-dir=/Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_667b3.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.3.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /Users/jinkim/miniforge3/envs/ros/include]
+  ignore line: [ /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_667b3]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin20.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/jinkim/miniforge3/envs/ros/bin]
+  link line: [ "/Users/jinkim/miniforge3/envs/ros/bin/arm64-apple-darwin20.0.0-ld" -demangle -lto_library /Users/jinkim/miniforge3/envs/ros/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_667b3 -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_667b3.dir/CMakeCCompilerABI.c.o -lSystem /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Users/jinkim/miniforge3/envs/ros/bin/arm64-apple-darwin20.0.0-ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/jinkim/miniforge3/envs/ros/lib/libLTO.13.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.0.0] ==> ignore
+    arg [12.3] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_667b3] ==> ignore
+    arg [-L/opt/homebrew/opt/openssl@1.1/lib] ==> dir [/opt/homebrew/opt/openssl@1.1/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_667b3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1beed && [1/2] Building CXX object CMakeFiles/cmTC_1beed.dir/CMakeCXXCompilerABI.cpp.o
+clang version 13.0.1
+Target: arm64-apple-darwin20.0.0
+Thread model: posix
+InstalledDir: /Users/jinkim/miniforge3/envs/ros/bin
+clang-13: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/Users/jinkim/miniforge3/envs/ros/bin/clang-13" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp -resource-dir /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_1beed.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1beed.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/jinkim/miniforge3/envs/ros/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/opt/homebrew/include -stdlib=libc++ -internal-isystem /Users/jinkim/miniforge3/envs/ros/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1beed.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /Users/jinkim/miniforge3/envs/ros/include
+ /Users/jinkim/miniforge3/envs/ros/bin/../include/c++/v1
+ /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking CXX executable cmTC_1beed
+clang version 13.0.1
+Target: arm64-apple-darwin20.0.0
+Thread model: posix
+InstalledDir: /Users/jinkim/miniforge3/envs/ros/bin
+ "/Users/jinkim/miniforge3/envs/ros/bin/arm64-apple-darwin20.0.0-ld" -demangle -lto_library /Users/jinkim/miniforge3/envs/ros/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_1beed -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1beed.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609
+BUILD 21:57:29 May 21 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/opt/homebrew/opt/openssl@1.1/lib
+	/opt/homebrew/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/homebrew/include]
+    add: [/Users/jinkim/miniforge3/envs/ros/include]
+    add: [/Users/jinkim/miniforge3/envs/ros/bin/../include/c++/v1]
+    add: [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  end of search list found
+  collapse include dir [/opt/homebrew/include] ==> [/opt/homebrew/include]
+  collapse include dir [/Users/jinkim/miniforge3/envs/ros/include] ==> [/Users/jinkim/miniforge3/envs/ros/include]
+  collapse include dir [/Users/jinkim/miniforge3/envs/ros/bin/../include/c++/v1] ==> [/Users/jinkim/miniforge3/envs/ros/include/c++/v1]
+  collapse include dir [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include] ==> [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  implicit include dirs: [/opt/homebrew/include;/Users/jinkim/miniforge3/envs/ros/include;/Users/jinkim/miniforge3/envs/ros/include/c++/v1;/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1beed && [1/2] Building CXX object CMakeFiles/cmTC_1beed.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin20.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/jinkim/miniforge3/envs/ros/bin]
+  ignore line: [clang-13: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/jinkim/miniforge3/envs/ros/bin/clang-13" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp -resource-dir /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_1beed.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1beed.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/jinkim/miniforge3/envs/ros/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/opt/homebrew/include -stdlib=libc++ -internal-isystem /Users/jinkim/miniforge3/envs/ros/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1beed.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.3.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /Users/jinkim/miniforge3/envs/ros/include]
+  ignore line: [ /Users/jinkim/miniforge3/envs/ros/bin/../include/c++/v1]
+  ignore line: [ /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_1beed]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin20.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/jinkim/miniforge3/envs/ros/bin]
+  link line: [ "/Users/jinkim/miniforge3/envs/ros/bin/arm64-apple-darwin20.0.0-ld" -demangle -lto_library /Users/jinkim/miniforge3/envs/ros/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_1beed -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1beed.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Users/jinkim/miniforge3/envs/ros/bin/arm64-apple-darwin20.0.0-ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/jinkim/miniforge3/envs/ros/lib/libLTO.13.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.0.0] ==> ignore
+    arg [12.3] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1beed] ==> ignore
+    arg [-L/opt/homebrew/opt/openssl@1.1/lib] ==> dir [/opt/homebrew/opt/openssl@1.1/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_1beed.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Users/jinkim/miniforge3/envs/ros/lib/clang/13.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/opt/openssl@1.1/lib] ==> [/opt/homebrew/opt/openssl@1.1/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/openssl@1.1/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_79731 && [1/2] Building C object CMakeFiles/cmTC_79731.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_79731
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/jinkim/catkin_ws/src/epipolar/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f6e4e && [1/2] Building C object CMakeFiles/cmTC_f6e4e.dir/src.c.o
+[2/2] Linking C executable cmTC_f6e4e
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
